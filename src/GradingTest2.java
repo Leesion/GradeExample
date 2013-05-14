@@ -10,8 +10,6 @@ public class GradingTest2{
 						
 		};
 		
-		System.out.println("ì‹œì‘í•©ë‹ˆë‹¤.");
-		
 		double  student[] = new double[5];
 		double score[] = {8.5, 11.5, 9.2, 10.8, 7.5, 12.5, 8.3, 11.7, 8.7, 11.3};
 		int solution[] = new int[10];
@@ -26,7 +24,7 @@ public class GradingTest2{
 					student[j] += score[k];
 				}
 			}
-			System.out.println("í•™ìƒ" + (j+1) + "ì˜ ì ìˆ˜ " + student[j]+"ì ");
+			System.out.println("ÇĞ»ı" + (j+1) + "ÀÇ Á¡¼ö " + student[j]+"Á¡");
 		}
     }
 }
