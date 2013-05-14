@@ -10,6 +10,8 @@ public class GradingTest2{
 						
 		};
 		
+		System.out.println("시작합니다.");
+		
 		double  student[] = new double[5];
 		double score[] = {8.5, 11.5, 9.2, 10.8, 7.5, 12.5, 8.3, 11.7, 8.7, 11.3};
 		int solution[] = new int[10];
@@ -26,5 +28,6 @@ public class GradingTest2{
 			}
 			System.out.println("학생" + (j+1) + "의 점수 " + student[j]+"점");
 		}
+		System.out.println("끝납니다.");
     }
 }
